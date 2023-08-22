@@ -1,0 +1,31 @@
+                                      ----- FUNCTIONS -----
+
+  
+1) Function :- A JavaScript function is a block of code designed to perform a particular task.
+
+2) how to define function :-A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).he code to be executed, by the function, is placed inside curly brackets: {}
+
+3) Function Call :- The code inside a function is not executed when the function is defined. The code inside a function is executed when the function is  call (writing name followed by the parentheses())
+
+4) Function Expressions :-A JavaScript function can also be defined using an expression. A function expression can be stored in a variable:
+
+5) Arguments vs Parameters in JavaScript :- 
+Understanding the distinction between arguments and parameters is crucial for working with functions in JavaScript. This concept clarifies how data is passed to and used within functions.
+
+    i> Parameters: Parameters are variables declared in the function definition. They act as placeholders for values that the function expects to receive when called
+     **Syntax: Parameters are listed inside the parentheses of the function definition.
+     Example:
+    function greet(name) {
+       console.log("Hello, " + name + "!");
+     }
+
+   ii >    
+6)Default Parameters
+If a function in JavaScript is called with missing arguments (less than declared), the missing values are set to undefined.
+Sometimes this is acceptable, but sometimes it is better to assign a default value to the parameter.
+
+7) return : The return statement stops the execution of a function and returns a value.
+
+
+

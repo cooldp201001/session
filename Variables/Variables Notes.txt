@@ -1,0 +1,79 @@
+ TOPIC : Variables in JS
+
+1) Defination : Variables are like containers that used to store values.They can change during the execution of the program.
+2) Rules for naming variables:
+    * Valid variables names must start with: a letter (A-Z or a-z), an
+    underscore(_),or a dollar sign ($)
+    * Subsequent characters can include:
+      letters (A-Z or a-z) ,underscore(_),or a dollar sign ($),digits(0-9)
+    * Reserved words cannot be used as variable names:-
+    * variables treated as case sensitive  
+3) Scope : scope in js refers to the area of code where a particular variable is accessible and can be used.
+    
+  * Types of Scope : global scope and local scope
+  
+   **Local scope  : variables declared inside a function or block have local scope.They are accessible only with that specific function
+                       or block.
+    
+    **global scope : variables declared outside of any functions or block have global scope.They can accessible form anywhere(in a function,block,nested block)
+                      in the code.
+4) Data types :
+   
+   i) Primitive data types:
+     .Number
+     .String
+     .Boolean (true/false)
+     .undefined\
+     .null\
+
+5) variable making :-  
+ * variable declaration : It is the process of intoducing a variable to the javascript engine, informing it that a variable with a 
+                          specific  name exists and can be used.
+ * variable initilization : Process of assigning an initial value to a declared variable.
+
+ * variable definition  :combining both in a one line.
+
+ 6) making variable in Javascript :- In js we can make variables by help let, var, const keywords.
+
+  i) let :-
+
+    ** introduced in ES6 2015
+    ** Variable declared let have block scope;
+    ** Variable declared  using let  cannot be redeclared within same scope ;
+    ** Variable declared let  cannot be access before its declaration;
+
+  ii)  const :-
+
+    ** introduced in ES6 2015
+    ** Variable declared using const have block scope;
+    ** Variable declared  using const cannot be redeclared within same scope ;
+    ** Variable declared using const cannot be access before its declaration;
+    ** variable declared using const must be initialize while its declaration; 
+    **  variable declared using const cannot be reinitialize;
+    
+  iii) var :-
+        ** variable declared using var have function scope;
+        ** not having block scope.
+        ** Can be redeclared
+  
+   (tomorrow's topic)
+    hosting  // done 
+    shadowing    
+    **legal shadowing
+    **ilegal shadowing
+    type conversion
+
+7) Hoisting : In JavaScript, "hoisting" is a behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and functions before they are actually declared in your code.
+However, it's important to note that only the declarations are hoisted, not the initializations.
+
+8) Shadowing : Variable shadowing is a concept in JavaScript where a variable declared within a certain scope (such as a function or a block) has the same name as a variable in an outer scope. As a result, the inner variable "shadows" the outer variable, making it inaccessible within that inner scope.
+
+
+// pending topics
+15 + "15";
+{
+    let num1 = 5;
+let num2 = 10;
+let result = num1 + num2 / "10";
+console.log(result); // 1515 
+}    

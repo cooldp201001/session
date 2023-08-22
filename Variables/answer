@@ -1,0 +1,66 @@
+Sure, here are the answers to the multiple-choice questions:
+
+1. a) all
+
+
+
+
+
+
+
+
+()
+{}
+-
+_
+/ 
+\
+~
+!
+""
+;
+''
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. a) 7
+3. d) both b and c
+4. c) 'let' variables can be reassigned, while 'const' variables cannot be reassigned.
+5. b) _myVariable
+6. a) The variable is automatically treated as a global variable.
+7. b) "515" (wrong answer)
+8. b) const x = 5;
+9. a) 5
+10. d) Error
+11. b) dynamically-typed
+12. a) Variables declared with 'var' have function-level scope, while 'let' and 'const' have block-level scope.
+13. a) 10
+14. a) The data type of the variable or expression.
+15. b) '==' checks for value equality without considering data types, while '===' checks for value and data type equality.
+16. c) Both variable and function declarations are hoisted to the top of their scope during the compilation phase.
+17. b) undefined
+18. c) It is used to declare global variables.
+19. a) 15
+20. c) const

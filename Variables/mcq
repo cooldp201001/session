@@ -1,0 +1,163 @@
+
+1. Which keyword is used to declare a variable in JavaScript?
+a) var
+b) let
+c) all
+d) const
+
+2. What will be the result of the following code?
+
+```javascript
+var x = 5;
+console.log(x + 2);
+```
+
+a) 7
+b) 52
+c) 5 + 2
+d) undefined
+
+3. In modern JavaScript, which keyword is used to declare block-scoped variables?
+a) var
+b) let
+c) const
+d) both b and c
+
+4. What is the difference between 'let' and 'const' in JavaScript?
+a) 'let' is used for constant values, while 'const' is used for mutable values.
+b) 'let' is block-scoped, while 'const' is function-scoped.
+c) 'let' variables can be reassigned, while 'const' variables cannot be reassigned.
+d) There is no difference; 'let' and 'const' are interchangeable.
+
+5. Which of the following is a valid variable name in JavaScript?
+a) 3x_variable
+b) _myVariable
+c) var-name
+d) 99variable
+
+6. What happens when you declare a variable without the 'var', 'let', or 'const' keyword?
+a) The variable is automatically treated as a global variable.
+b) An error is thrown, and the code won't run.
+c) The variable is automatically treated as a constant.
+d) The variable is only accessible within the current function.
+
+7. What will be the output of the following code?
+```javascript
+
+let num1 = 5;
+let num2 = 10;
+let result = num1 + num2 + "15";
+console.log(result);
+```
+a) 30
+b) "1515"
+c) "25"
+d) "1015"
+ //not
+
+8. Which of the following is the correct way to declare a constant variable in JavaScript?
+a) constant x = 5;
+b) const x = 5;
+c) let x = 5;
+d) var x = 5;
+
+9. What is the value of 'y' after executing the following code?
+```javascript
+
+let x = 5;
+let y = x++;
+
+```
+a) 5
+b) 6
+c) 4
+d) Error
+
+10. What will be the output of the following code?
+```javascript
+
+const PI = 3.14;
+PI = 22 / 7;
+console.log(PI);
+
+```
+a) 3.14
+b) 22
+c) 22/7
+d) Error
+
+11. In JavaScript, variables are _______ data types.
+a) statically-typed
+b) dynamically-typed
+c) constantly-typed
+d) globally-typed
+
+12. Which of the following is true about the variable scope in JavaScript?
+a) Variables declared with 'var' have function-level scope, while 'let' and 'const' have block-level scope.
+b) Variables declared with 'let' have function-level scope, while 'var' and 'const' have block-level scope.
+c) Variables declared with 'const' have function-level scope, while 'let' and 'var' have block-level scope.
+d) All variables have the same scope regardless of the keyword used.
+
+13. What is the output of the following code?
+```javascript
+let a = 10;
+if (true) {
+  let a = 20;
+}
+console.log(a);
+```
+a) 10
+b) 20
+c) undefined
+d) Error
+
+14. The 'typeof' operator in JavaScript returns:
+a) The data type of the variable or expression.
+b) The value of the variable or expression.
+c) Whether the variable is initialized or not.
+d) The scope of the variable.
+
+15. What is the difference between '==' and '===' in JavaScript?
+a) Both operators check for value equality.
+b) '==' checks for value equality without considering data types, while '===' checks for value and data type equality.
+c) '===' checks for value equality without considering data types, while '==' checks for value and data type equality.
+d) '==' is used for assignment, while '===' is used for comparison.
+
+16. Which of the following is true about hoisting in JavaScript?
+a) Variable declarations are moved to the top of their scope during the compilation phase.
+b) Function declarations are moved to the top of their scope during the runtime phase.
+c) Both variable and function declarations are hoisted to the top of their scope during the compilation phase.
+d) Hoisting is not supported in JavaScript.
+
+17. What will be the output of the following code?
+```javascript
+let x;
+console.log(x);
+```
+a) null
+b) undefined
+c) 0
+d) Error
+
+18. What is the purpose of using the 'var' keyword in older versions of JavaScript?
+a) It is used to declare constants.
+b) It provides block-level scoping for variables.
+c) It is used to declare global variables.
+d) It is a synonym for 'let' in modern JavaScript.
+
+19. What is the result of the following expression?
+```javascript
+let num = 10;
+num += 5;
+console.log(num);
+```
+a) 15
+b) 105
+c) 10
+d) NaN
+
+20. Which keyword is used to prevent variables from being reassigned in JavaScript?
+a) var
+b) let
+c) const
+d) no-change
