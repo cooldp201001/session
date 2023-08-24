@@ -13,19 +13,18 @@ Function names can contain letters, digits, underscores, and dollar signs (same 
 5) Arguments vs Parameters in JavaScript :- 
 Understanding the distinction between arguments and parameters is crucial for working with functions in JavaScript. This concept clarifies how data is passed to and used within functions.
 
-    i> Parameters: Parameters are variables declared in the function definition. They act as placeholders for values that the function expects to receive when called
-     **Syntax: Parameters are listed inside the parentheses of the function definition.
-     Example:
-    function greet(name) {
-       console.log("Hello, " + name + "!");
-     }
-
-   ii >    
+    i> Parameters: Parameters are variables declared in the function definition. They act as placeholders for values that the function expects to receive when called. Parameters are listed inside the parentheses of the function definition.
+   
+   ii > Arguments: Arguments are the actual values passed to a function when it is called. They correspond to the parameters defined in the function.Arguments are placed inside the parentheses when calling a function.
+  
 6)Default Parameters
 If a function in JavaScript is called with missing arguments (less than declared), the missing values are set to undefined.
 Sometimes this is acceptable, but sometimes it is better to assign a default value to the parameter.
 
-7) return : The return statement stops the execution of a function and returns a value.
+7) return : The return statement is used to return a particular value from the function to the function caller. The function will stop executing when the return statement is called. The return statement should be the last statement in a function because the code after the return statement will be unreachable
 
+8) local and global function :
+  i) Global functions :. When a function is defined inside a block (such as an if statement, loop, or any other curly-brace enclosed scope), it is considered to be a "local function."
 
+  ii) 
 
