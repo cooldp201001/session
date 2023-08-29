@@ -1,0 +1,206 @@
+Here is 30 MCQ on function topic in javascript.Try to attempt most of it.If you stuck in some mcq just markdown
+we will discuss in sessions and one more think that some of it MCQ  is related to the topic which is our future topic
+so you can skill that.
+## Feel free to get back to me if you have any doubt.
+
+1. What is the keyword used to define a function in JavaScript?
+   a) func
+   b) function 
+   c) def
+   d) fn
+
+2. Which of the following is NOT a valid way to declare a function in JavaScript?
+   a) function myFunction() {}
+   b) const myFunction = function() {};
+   c) const myFunction = () => {};
+   d) const function = () => {};
+
+3. What is the purpose of parameters in a function declaration?
+   a) They define the name of the function.
+   b) They specify the return value of the function.
+   c) They provide inputs that the function can work with.
+   d) They define the order of execution.
+   
+
+4. Which of the following statements is true about function names in JavaScript?
+   a) Function names are case-insensitive.
+   b) Function names must start with a capital letter.
+   c) Function names can contain spaces and special characters.
+   d) Function names must be unique within a script.
+
+5. What is the difference between function parameters and function arguments?
+   a) There is no difference; the terms are interchangeable.
+   b) Parameters are specified when calling a function, while arguments are defined in the function declaration.
+   c) Parameters are defined in the function declaration, while arguments are passed when calling the function.
+   d) Parameters are used for internal calculations, while arguments are used for user inputs.
+
+6. Which of the following is the correct syntax for an arrow function?
+   a) function myFunc() => {}
+   b) () -> {}
+   c) const myFunc = function() {}
+   d) () => {}
+
+7. Arrow functions do NOT have their own:  
+   a) `this` value
+   b) arguments object
+   c) return statement
+   d) function name  
+
+8. What does the `return` statement do in a function?
+   a) It defines the name of the function.
+   b) It specifies the parameters the function accepts.
+   c) It ends the execution of the function and returns a value.
+   d) It defines the order of statements within the function.
+
+9. Which of the following correctly defines a function expression?
+   a) function myFunc() {}
+   b) const myFunc = function() {}
+   c) () => {}
+   d) function = () => {}
+
+10. Which of the following statements is true about function expressions?
+    a) They must be named functions.
+    b) They are defined using the `func` keyword.
+    c) They are hoisted to the top of the scope.
+    d) They can be anonymous or named.
+
+11. The value of `this` in an arrow function is determined by: (pending)
+    a) The function's name.
+    b) The location of the function declaration.
+    c) The value of `this` where the arrow function is defined.
+    d) Arrow functions don't have their own `this` value.
+
+12. When using an arrow function, do you need to use the `return` keyword to return a value?
+    a) Yes, arrow functions require `return` to return a value.
+    b) No, arrow functions implicitly return a value.
+    c) Only if the arrow function has more than one line of code. 
+    d) Arrow functions cannot return values.
+
+13. Which of the following is an advantage of using arrow functions? (pending)
+    a) They have their own `arguments` object.
+    b) They are more memory-efficient than regular functions.
+    c) They automatically bind to the calling object.
+    d) They have better performance for heavy computations.
+
+14. What will be the output of the following code?
+   
+    const x = () => {
+        return 5;
+    };
+    console.log(x());
+    
+    a) undefined
+    b) null
+    c) 5
+    d) SyntaxError
+
+15. Which of the following is a valid way to define a function that takes two parameters using an arrow function?
+    a) (a, b) => { return a + b; }
+    b) (a, b) { a + b; }
+    c) const func = (a, b) => a + b;
+    d) function(a, b) => a + b;
+
+16. What does the term "callback function" refer to in JavaScript? (pending)
+    a) A function that is called after another function has finished executing.
+    b) A function that is called before another function is executed.
+    c) A function that is only used as an argument for the `console.log()` function.
+    d) A function that can only be used as a method of an object.
+
+17. Which of the following correctly defines a function using the function declaration syntax?
+    a) const myFunc = function() {}
+    b) const myFunc => {}
+    c) function myFunc() {}
+    d) () => {}
+
+18. The scope of a variable defined within a function is limited to.
+    a) The block in which the function is defined.
+    b) The global scope.
+    c) The function in which variable is defined.
+    d) The entire program.
+
+19. What is the primary advantage of using named function expressions? (pending)
+    a) They are more memory-efficient than anonymous functions.
+    b) They are automatically hoisted to the top of the scope.
+    c) They can be called before they are defined in the code.
+    d) They have a clearer stack trace in case of errors.
+
+20. Which type of function allows you to access variables from its containing function even after the containing function has finished executing?(pending)
+    a) Regular function
+    b) Arrow function
+    c) Callback function
+    d) IIFE (Immediately Invoked Function Expression)
+
+Question 21: What is a function in JavaScript?
+
+A) A built-in object  
+B) A data type  
+C) A named block of code that can be executed  
+D) A variable
+
+Question 22: How do you define a function in JavaScript?
+
+A) `function myFunction() {...}`  
+B) `def myFunction(): {...}`  
+C) `create function myFunction() {...}`  
+D) `new function myFunction() {...}`
+
+Question 23: Which keyword is used to invoke a function in JavaScript?
+
+A) `call`  
+B) `run`  
+C) `execute`  
+D) `()` (parentheses)
+
+Question 24: What is the purpose of parameters in a function declaration?
+
+A) They determine the function's return value  
+B) They specify the data type of the function  
+C) They provide inputs to the function  
+D) They define the function's internal variables
+
+Question 25: How do you return a value from a function in JavaScript?
+
+A) `output(value)`  
+B) `return value;`  
+C) `value -> return;`  
+D) `value.return();`
+
+Question 26: What is a "callback" function in JavaScript?
+
+A) A function that performs mathematical calculations  
+B) A function that is called automatically when the program starts  
+C) A function passed as an argument to another function, to be executed later  
+D) A function used for debugging purposes
+
+Question 27: What is the difference between function declarations and function expressions?
+
+A) Function declarations are hoisted, while function expressions are not  
+B) Function expressions are hoisted, while function declarations are not  
+C) There is no difference between them  
+D) Function expressions can only be used in the global scope
+
+Question 28: What does the term "scope" refer to in relation to functions?
+
+A) The number of parameters a function accepts  
+B) The size of the code block within the function  
+C) The location in memory where the function is stored  
+D) The visibility and accessibility of variables in different parts of the code
+
+Question 29: Which of the following is an example of an anonymous function?
+
+A) `function myFunction() {...}`  
+B) `const func = function() {...}`  
+C) `function() {...}`  
+D) `const func = () => {...}`
+
+Question 30: What is the purpose of the "arguments" object in a function?
+
+A) It stores the result of the function  
+B) It holds the names of the parameters  
+C) It provides access to the arguments passed to the function  
+D) It defines the function's return type
+
+
+ 9 mcqs
+ arguments
+ 3)closure in javascript
