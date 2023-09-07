@@ -128,7 +128,7 @@ so you can skill that.
     a) Regular function
     b) Arrow function
     c) Callback function
-    d) IIFE (Immediately Invoked Function Expression)
+    d) IIFE (Immediately Invoked Function Expression)✔
 
 Question 21: What is a function in JavaScript?
 
@@ -137,42 +137,42 @@ B) A data type
 C) A named block of code that can be executed  
 D) A variable
 
-Question 22: How do you define a function in JavaScript?
+Question 22: How do you define a function in JavaScript?    ✔
 
 A) `function myFunction() {...}`  
 B) `def myFunction(): {...}`  
 C) `create function myFunction() {...}`  
 D) `new function myFunction() {...}`
 
-Question 23: Which keyword is used to invoke a function in JavaScript?
+Question 23: Which keyword is used to invoke a function in JavaScript? ✔
 
 A) `call`  
 B) `run`  
 C) `execute`  
 D) `()` (parentheses)
 
-Question 24: What is the purpose of parameters in a function declaration?
+Question 24: What is the purpose of parameters in a function declaration? (crosscheck it after the session)
 
 A) They determine the function's return value  
 B) They specify the data type of the function  
 C) They provide inputs to the function  
-D) They define the function's internal variables
+D) They define the function's internal variables 
 
-Question 25: How do you return a value from a function in JavaScript?
+Question 25: How do you return a value from a function in JavaScript? ✔ 
 
 A) `output(value)`  
 B) `return value;`  
 C) `value -> return;`  
 D) `value.return();`
 
-Question 26: What is a "callback" function in JavaScript?
+Question 26: What is a "callback" function in JavaScript? (pending)
 
 A) A function that performs mathematical calculations  
 B) A function that is called automatically when the program starts  
 C) A function passed as an argument to another function, to be executed later  
 D) A function used for debugging purposes
 
-Question 27: What is the difference between function declarations and function expressions?
+Question 27: What is the difference between function declarations and function expressions? ✔
 
 A) Function declarations are hoisted, while function expressions are not  
 B) Function expressions are hoisted, while function declarations are not  
@@ -184,23 +184,24 @@ Question 28: What does the term "scope" refer to in relation to functions?
 A) The number of parameters a function accepts  
 B) The size of the code block within the function  
 C) The location in memory where the function is stored  
-D) The visibility and accessibility of variables in different parts of the code
+D) The visibility and accessibility of variables in different parts of the code 
 
-Question 29: Which of the following is an example of an anonymous function?
+Question 29: Which of the following is an example of an anonymous function? ✔ 
 
 A) `function myFunction() {...}`  
 B) `const func = function() {...}`  
 C) `function() {...}`  
 D) `const func = () => {...}`
 
-Question 30: What is the purpose of the "arguments" object in a function?
+Question 30: What is the purpose of the "arguments" object in a function?  ✔ 
 
 A) It stores the result of the function  
 B) It holds the names of the parameters  
 C) It provides access to the arguments passed to the function  
 D) It defines the function's return type
 
-
- 9 mcqs
- arguments
- 3)closure in javascript
+5 pending mcq
+ 9 mcqs  ✔ 
+ arguments  ✔ 
+ 3)closure in javascript  next topic
+ 4) callback function    next topic 
