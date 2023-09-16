@@ -1,0 +1,2 @@
+Basic Concatenation:
+Write a JavaScript function that takes two arrays as arguments and uses the concat method to concatenate them into a single array. Return the resulting array.

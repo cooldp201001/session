@@ -1,7 +1,14 @@
 
 1.what is full stack development? 
-
 Ans) Full Stack Development refers to the development of both front end (client side) and back end (server side) portions of web application.
 
 2. Who is full stack developer? 
 A full stack developer is a professional who has the knowledge and skills to work on both the front end and back end of a web application or software project. They are proficient in multiple technologies and can handle various aspects of development, including client-side programming, server-side programming, and database management. 
+
+3) Front-end Development: 
+ Front stack developers are skilled in HTML, CSS, and JavaScript, allowing them to create and optimize user interfaces that are visually appealing and provide a seamless user experience across different devices and browsers. 
+
+
+4)  Back-end Development:  
+They are proficient in server-side programming languages such as Python, Ruby, Java, or Node.js. Full stack developers can build the server logic, handle data storage and retrieval, and implement business logic and algorithms. 
+

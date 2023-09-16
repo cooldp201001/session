@@ -1,49 +1,75 @@
-//array
-let  ArrVar = [2342,2323,23423,235,23,235,25,235,235,2352]
-// console.log(ArrVar);
+ //aray's method 
 
-// let simpleVar = 2342,2323,23423,235,23,235,25,235,235,2352,2352;
+//  1) toString
 
-/* 
- 1st = 5;
- let student1="xyx";
- let student2="xyx";
- let student3="xyx";
- let student4="xyx";
- let student5="xyx";
+// let demoName =["kuldeeep","Raj","Rajnish",2345235,235,235,235,2352,true,false,true,"Sandeep",21342134,234235,2345,235];
+// console.log(demoName);
+// let result = demoName.toString();
+// console.log(result);
+// console.log(  typeof result);
 
- 2nd = 20;
- 20 varible create and store the names of the students 20 times
- console.log > 20 times
+//2) pop()
 
-8th = 1000;
-*/
+// let num = [123,23,23,234,23];
+// console.log(num);
+//  let removedElm= num.pop();
+// console.log(num);
+// console.log(removedElm);
 
-let Arr = [1234,213512,1235,1235,2345];
+//3) push(value)
 
-let elm=Arr[3]
-// console.log(Arr);
+// let num = [2342,3,23]
+// console.log(num);
+// console.log(num.length);
 
-// key,value ,property, method(function)
+//  let newArray = num.push(213423,2532,235,2,235,235,235,235,235,2354,"st",true,false,"demoText","ab",2352,3346745745,7457,7547);
+// console.log(num);
+// console.log(newArray);
 
-let obj ={
- key:"value",   
- fun: function(){
-    console.log("hii");
- }
+
+
+// 4)shift()
+// let num= [1,2,3,4];
+// console.log(num);
+// num.shift()
+// console.log(num);
+
+
+
+
+
+{
+
+     let arr= [1234];
+    // console.log(arr);
+    arr.push(213);
+    // console.log(arr);
 }
 
-// let demoVar= [2342,234]
-//  console.log( typeof  demoVar);
+// concat()
 
-// mix type values
- let demoAray = [1,234,22,235]
-//  console.log(demoAray.length-1);
- console.log(demoAray);
+// let num1 = [1,2,3]
+// let num2 = [4,5,6]
+// let num3 = [7,8,9]
+// let newNum = num1.concat("string");
+// console.log(newNum);
+// console.log(num1);
 
- demoAray.push(1);
- console.log(demoAray);
- demoAray.push(2342)
- console.log(demoAray);
- demoAray.pop();
- console.log(demoAray);
+//  [1232,,,,,,,,] return  firstArray.concat(secondArray,thirdArray)
+
+
+//splice()
+
+// let num=[3,0,0,0,0,0];
+
+//  let result = num.splice(0,6, "A","B")
+// console.log(num);
+// console.log(result);
+
+
+// slice()
+let num = [1,2,3,4,5]
+
+let result = num.slice(1,3)
+console.log(result);
+console.log(num);
