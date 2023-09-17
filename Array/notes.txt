@@ -1,5 +1,5 @@
 
-Here are 15 questions that require you to write code using various JavaScript array methods:
+Here are 16 questions that require you to write code using various JavaScript array methods:
 
 1. Using the `push` method, add the value 42 to the end of an array called `myArray`.
 
