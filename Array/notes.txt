@@ -1,2 +1,36 @@
-Basic Concatenation:
-Write a JavaScript function that takes two arrays as arguments and uses the concat method to concatenate them into a single array. Return the resulting array.
+
+Here are 15 questions that require you to write code using various JavaScript array methods:
+
+1. Using the `push` method, add the value 42 to the end of an array called `myArray`.
+
+2. How can you remove the last element from an array named `myArray` using the `pop` method?
+
+3. Create a new array called `fruits` with the elements "apple," "banana," and "cherry." Use the `join` method to join them into a single string separated by commas.
+
+4. Given an array called `numbers` with values [1, 2, 3], use the `push` method to add the values 4 and 5 to the end of the array.
+
+5. Use the `shift` method to remove the first element from an array called `colors` that contains ["red", "green", "blue"].
+
+6. How can you add the elements "orange" and "purple" to the beginning of an array named `colors` using the `unshift` method?
+
+7. Given two arrays, `firstNames` and `lastNames`, use the `concat` method to combine them into a single array of full names.
+
+8. Using the `splice` method, remove the second element (index 1) from an array called `animals` containing ["lion", "tiger", "bear"].
+
+9. Create an array called `originalArray` with elements [1, 2, 3, 4, 5], and then use the `slice` method to create a new array `newArray` with only the elements 2, 3, and 4.
+
+10. Use the `push` method to add the values 6, 7, and 8 to the end of an array called `myNumbers`.
+
+11. Given an array `letters` with values ["a", "b", "c"], use the `join` method to create a string where each letter is separated by a hyphen.
+
+12. How can you remove the first element from an array named `items` using the `shift` method?
+
+13. Create an array called `colors` with values ["red", "blue", "green"], and then use the `splice` method to replace "blue" with "yellow".
+
+14. Given an array called `originalArray` with values [1, 2, 3, 4, 5], use the `slice` method to create a new array called `subArray` containing only the first three elements.
+
+15. Using the `concat` method, combine two arrays `firstHalf` and `secondHalf` into a single array representing the full deck of playing cards. Each half contains the values ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"], and the suits should be ["Hearts", "Diamonds", "Clubs", "Spades"].
+
+16. Write a JavaScript function that takes two arrays as arguments and uses the concat method to concatenate them into a single array. Return the resulting array.
+ 
+These questions cover a range of array methods and their usage in JavaScript. Feel free to practice writing code for each of them to enhance your understanding of array manipulation in JavaScript.
